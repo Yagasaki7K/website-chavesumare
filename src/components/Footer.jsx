@@ -3,17 +3,19 @@ import FooterDetails from './FooterDetails'
 const Footer = () => {
   return (
     <FooterDetails>
-        <img src="/logotipo.png" alt="Chaveiro Sumaré" />
+        <a href="/">
+            <img src="/logotipo.png" alt="Chaveiro Sumaré" />
+        </a>
 
         <div className="footer-content">
             <div className="leftContainer">
                 <h1>Chaveiro Sumaré</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquam corporis sapiente necessitatibus ullam, delectus cupiditate totam numquam sint! Libero tempora error voluptate soluta unde nisi dicta distinctio architecto enim.</p>
+                <p>Atendemos você diretamente na sua casa, no seu escritório e até mesmo em casos de emergência como veículos trancados. <br/> Levando qualidade, segurança e profissionalismo em nossa bagagem com anos de experiência que só a Chaveiro Sumaré possuí!</p>
             </div>
             <div className="middleContainer">
                 <h2>Entre em contato</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, reprehenderit vel labore a at cum quo ratione. 
+                    Você também pode apertar o botão do Whatsapp e entrar em contato direto com a gente!
                 </p>
 
                 <p><i class="uil uil-map-marker-alt"></i> Rua das Letras, 123, Sumaré</p>
@@ -21,7 +23,7 @@ const Footer = () => {
                 <p><i class="uil uil-envelope"></i> exemplo@email.com.br</p>
             </div>
             <div className="rightContainer">
-                <a href=""><i class="uil uil-whatsapp"></i> Envie uma mensagem no Whatsapp!</a>
+                <a href=""><i class="uil uil-whatsapp"></i> Envie um "HELP" no Whatsapp!</a>
             </div>
         </div>
     </FooterDetails>

@@ -3,25 +3,25 @@ import OurServicesDetails from './OurServicesDetails';
 const OurServices = () => {
   return (
     <OurServicesDetails>
-        <h4>Our Services</h4>
-        <h1>What We Offer</h1>
+        <h4>Nossos serviços</h4>
+        <h1>O que oferecemos!</h1>
 
         <div className="services">
             <div className="service">
                 <i class="uil uil-key-skeleton"></i>
-                <p>Dry Cleaning</p>
+                <p>Instalação</p>
             </div>
             <div className="service">
                 <i class="uil uil-car-sideview"></i>
-                <p>Wash and Fold</p>
+                <p>Desbloqueio</p>
             </div>
             <div className="service">
                 <i class="uil uil-lock"></i>
-                <p>Wash and Fold</p>
+                <p>Controles</p>
             </div>
             <div className="service">
                 <i class="uil uil-keyhole-circle"></i>
-                <p>Wash and Fold</p>
+                <p>Autenticidade</p>
             </div>
         </div>
     </OurServicesDetails>

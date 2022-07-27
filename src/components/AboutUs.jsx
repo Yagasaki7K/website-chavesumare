@@ -7,12 +7,12 @@ const AboutUs = () => {
                 <img src="/logotipo.png" alt="Chaveiro Sumaré" />
             </div>
             <div className="rightContent">
-                <h4>Learn About Us</h4>
-                <h1>We Are Quality Laundry Provider in Your City</h1>
+                <h4>Nossa história</h4>
+                <h1>Chaveiro Sumaré desde 2016 no mercado com segurança e qualidade</h1>
                 
-                <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore error autem fuga eius modi. Est labore error autem fuga eius modi. Est labore error autem fuga eius modi.</i>
+                <i>Atendemos em nossa loja e também através do Whatsapp</i>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore error autem fuga eius modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore error autem fuga eius modi.</p>
+                <p>Atendemos você diretamente na sua casa, no seu escritório e até mesmo em casos de emergência como veículos trancados, levando até você segurança, profissionalismo e qualidade que só a Chaveiro Sumaré possuí</p>
             </div>
         </AboutUsDetails>
     )

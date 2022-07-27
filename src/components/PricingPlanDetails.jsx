@@ -32,7 +32,7 @@ const PricingPlanDetails = styled.div`
             }
 
             .header-plan {
-                background: #181a1b;
+                
                 color: #d3cfc9;
                 border-radius: 50%;
                 padding: 1rem;
@@ -40,8 +40,24 @@ const PricingPlanDetails = styled.div`
                 margin-left: 5.3rem;
                 border: 2px solid #d3cfc9;
 
+                .gold {
+                    background: #deb95d;
+                }
+
+                .silver {
+                    background: #adadad;
+                }
+
+                .bronze {
+                    background: #c87e3a;
+                }
+
                 h2 {
                     margin-bottom: 0;
+                }
+
+                i {
+                    font-size: 1.5rem;
                 }
             }
 
