@@ -15,7 +15,7 @@ const OurServicesDetails = styled.div`
         display: flex;
         flex-direction: row;
 
-        @media (max-width: 500px) {
+        @media (max-width: 600px) {
             flex-direction: column;
         }
 
@@ -36,7 +36,7 @@ const OurServicesDetails = styled.div`
             }
 
             p {
-                margin-bottom: .5rem;
+                margin-bottom: 0.5rem;
             }
 
             border: 1px solid #d3cfc9;

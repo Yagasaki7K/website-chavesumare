@@ -19,6 +19,10 @@ const OurServices = () => {
                 <i class="uil uil-lock"></i>
                 <p>Wash and Fold</p>
             </div>
+            <div className="service">
+                <i class="uil uil-keyhole-circle"></i>
+                <p>Wash and Fold</p>
+            </div>
         </div>
     </OurServicesDetails>
   )
