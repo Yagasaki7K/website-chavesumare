@@ -7,7 +7,7 @@ const AboutUsDetails = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
 
-    @media (max-width: 600px) {
+    @media (max-width: 730px) {
         flex-direction: column;
     }
 
@@ -42,6 +42,13 @@ const AboutUsDetails = styled.div`
 
         h4 {
             text-transform: uppercase;
+            margin-bottom: -1rem;
+            color: #7e7e7e;
+        }
+
+        h1 {
+            text-transform: capitalize;
+            color: #fff;
         }
     }
 `

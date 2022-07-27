@@ -65,7 +65,7 @@ const HeaderDetails = styled.div`
         background: #ee393f;
         color: #d3cfc9;
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 1rem;
         font-size: 1rem;
         font-weight: bold;
