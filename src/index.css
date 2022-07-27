@@ -5,6 +5,7 @@ body {
     font-family: "Open Sans",sans-serif;
     background: #181a1b;
     color: #d3cfc9;
+    scroll-behavior: smooth;
 }
 
 a {
