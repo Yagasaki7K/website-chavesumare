@@ -47,7 +47,7 @@ const PricingPlan = () => {
                     <li>Chave de importados</li>
                     <li>Chave presença</li>
                     <li>Alarmes para Veículos</li>
-                    <li>Wash and Fold</li>
+                    <li>Emulador da Mercedes (Elv)</li>
                 </ul>
                 <button><i class="uil uil-message"></i> Entre em contato</button>
             </div>
