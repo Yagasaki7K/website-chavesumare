@@ -11,6 +11,10 @@ const OurServicesDetails = styled.div`
         margin-bottom: -1rem;
     }
 
+    h1 {
+        color: #fff;
+    }
+
     .services {
         display: flex;
         flex-direction: row;
@@ -25,6 +29,11 @@ const OurServicesDetails = styled.div`
             align-items: center;
             flex-direction: column;
             margin-right: 1.5rem;
+
+            @media (max-width: 768px) {
+                margin-right: 0.5rem;
+            }
+
             margin-bottom: 1rem;
             font-size: 1.5rem;
 

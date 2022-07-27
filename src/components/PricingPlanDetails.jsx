@@ -10,13 +10,26 @@ const PricingPlanDetails = styled.div`
         margin-bottom: -1rem;
     }
 
+    h1 {
+        color: #fff;
+    }
+
     .plans {
         display: flex;
         text-align: center;
         
+        @media (max-width: 600px) {
+            flex-direction: column;
+        }
+        
         .plan {
             width: 300px;
             margin: 20px;
+
+            @media (max-width: 768px) {
+                margin-right: -2rem;
+                margin-left: -3rem;
+            }
 
             .header-plan {
                 background: #181a1b;
@@ -25,7 +38,7 @@ const PricingPlanDetails = styled.div`
                 padding: 1rem;
                 width: 9rem;
                 margin-left: 5.3rem;
-                border: 2px solid red;
+                border: 2px solid #d3cfc9;
 
                 h2 {
                     margin-bottom: 0;
