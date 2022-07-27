@@ -4,7 +4,7 @@ const AboutUs = () => {
     return (
         <AboutUsDetails>
             <div className="leftContent" id="aboutus">
-                <img src="http://blog.shoppub.com.br/wp-content/uploads/2015/09/400-x-400.png" alt="" />
+                <img src="/logotipo.png" alt="Chaveiro Sumaré" />
             </div>
             <div className="rightContent">
                 <h4>Learn About Us</h4>

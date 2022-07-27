@@ -2,6 +2,7 @@ import Header from './components/Header'
 import AboutUs from './components/AboutUs'
 import OurServices from './components/OurServices'
 import PricingPlan from './components/PricingPlan'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
             <AboutUs />
             <OurServices />
             <PricingPlan />
+            <Footer />
         </>
     )
 }

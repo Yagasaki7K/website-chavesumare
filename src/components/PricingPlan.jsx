@@ -19,7 +19,7 @@ const PricingPlan = () => {
                     <li>Wash and Fold</li>
                     <li>Wash and Fold</li>
                 </ul>
-                <button>Entrar em contato</button>
+                <button><i class="uil uil-message"></i> Entre em contato</button>
             </div>
 
             <div className="plan">
@@ -34,7 +34,7 @@ const PricingPlan = () => {
                     <li>Wash and Fold</li>
                     <li>Wash and Fold</li>
                 </ul>
-                <button>Entrar em contato</button>
+                <button><i class="uil uil-message"></i> Entre em contato</button>
             </div>
 
             <div className="plan">
@@ -49,7 +49,7 @@ const PricingPlan = () => {
                     <li>Wash and Fold</li>
                     <li>Wash and Fold</li>
                 </ul>
-                <button>Entrar em contato</button>
+                <button><i class="uil uil-message"></i> Entre em contato</button>
             </div>
         </div>
     </PricingPlanDetails>
