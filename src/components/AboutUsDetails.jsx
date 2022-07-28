@@ -26,7 +26,9 @@ const AboutUsDetails = styled.div`
         }
 
         @media (max-width: 375px) {
-            margin-left: -1.4rem;
+            img {
+                width: 20rem;
+            }
         }
 
     }
@@ -59,12 +61,28 @@ const AboutUsDetails = styled.div`
             }
         }
 
-        @media (max-width: 414px) {
-            width: 25rem;
+        @media (max-width: 600px) {
+            h1 {
+                width: 32rem;
+            }
+
+            p {
+                width: 30rem;
+            }
         }
 
-        @media (max-width: 375px) {
-            width: 20rem;
+        @media (max-width: 414px) {
+            h1, p, h4 {
+                width: 22rem;
+                margin-left: 6rem;
+            }
+        }
+
+        @media (max-width: 320px) {
+            h1, p, h4 {
+                width: 17rem;
+                margin-left: 9rem;
+            }
         }
 
         h4 {
