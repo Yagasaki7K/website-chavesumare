@@ -15,6 +15,12 @@ const AboutUsDetails = styled.div`
         margin-right: 2rem;
         max-width: 30rem;
 
+        @media (max-width: 730px) {
+            img {
+                width: 23rem;
+            }
+        }
+
         @media (max-width: 414px) {
             margin-left: 1.6rem;
         }
@@ -30,6 +36,27 @@ const AboutUsDetails = styled.div`
 
         @media (max-width: 1366px) {
             width: 35rem;
+        }
+
+        @media (max-width: 730px) {
+            h1 {
+                margin-left: 1rem;
+                width: 25rem;
+            }
+
+            h4 {
+                margin-left: 1rem;
+                width: 25rem;
+            }
+
+            i {
+                display: none;
+            }
+
+            p {
+                width: 20rem;
+                margin-left: 1rem;
+            }
         }
 
         @media (max-width: 414px) {

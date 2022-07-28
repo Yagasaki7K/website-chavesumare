@@ -43,7 +43,8 @@ const HeaderDetails = styled.div`
         font-size: 4rem;
 
         @media (max-width: 768px) {
-            font-size: 3rem;
+            font-size: 1rem;
+            padding: 1rem 0;
         }
         @media (max-width: 600px) {
             font-size: 2.5rem;

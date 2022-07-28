@@ -8,7 +8,7 @@ const AboutUs = () => {
             </div>
             <div className="rightContent">
                 <h4>Nossa história</h4>
-                <h1>Chaveiro Sumaré desde 2016 no mercado com segurança e qualidade</h1>
+                <h1>Chaveiro Sumaré desde 2007 atual no mercado com segurança e qualidade</h1>
                 
                 <i>Atendemos em nossa loja e também através do Whatsapp</i>
 
