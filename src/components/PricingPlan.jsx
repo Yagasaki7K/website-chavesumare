@@ -19,7 +19,7 @@ const PricingPlan = () => {
                     <li>Abertura de fechadura</li>
                     <li>Cópias de chaves residenciais</li>
                 </ul>
-                <button><i class="uil uil-message"></i> Entre em contato</button>
+                <a href="https://api.whatsapp.com/send?phone=5519981480355&text=Ol%C3%A1%2C%20preciso%20de%20uma%20ajuda!"><i class="uil uil-message"></i> Entre em contato</a>
             </div>
 
             <div className="plan">
@@ -33,7 +33,7 @@ const PricingPlan = () => {
                     <li>Fechaduras eletrônicas</li>
                     <li>Controle para portões elétricos</li>
                 </ul>
-                <button><i class="uil uil-message"></i> Entre em contato</button>
+                <a href="https://api.whatsapp.com/send?phone=5519981480355&text=Ol%C3%A1%2C%20preciso%20de%20uma%20ajuda!"><i class="uil uil-message"></i> Entre em contato</a>
             </div>
 
             <div className="plan">
@@ -49,7 +49,7 @@ const PricingPlan = () => {
                     <li>Alarmes para Veículos</li>
                     <li>Emulador da Mercedes (Elv)</li>
                 </ul>
-                <button><i class="uil uil-message"></i> Entre em contato</button>
+                <a href="https://api.whatsapp.com/send?phone=5519981480355&text=Ol%C3%A1%2C%20preciso%20de%20uma%20ajuda!"><i class="uil uil-message"></i> Entre em contato</a>
             </div>
         </div>
     </PricingPlanDetails>

@@ -66,6 +66,11 @@ const FooterDetails = styled.div`
             @media (max-width: 414px) {
                 width: 20rem;
             }   
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
         }
 
         .rightContainer {

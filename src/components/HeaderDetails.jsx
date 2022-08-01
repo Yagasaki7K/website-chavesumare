@@ -5,7 +5,7 @@ const HeaderDetails = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(https://i.pinimg.com/originals/aa/21/b3/aa21b3255f9b579d259d176e3d3fbcda.jpg) no-repeat;
+    background: url(https://images5.alphacoders.com/456/thumb-1920-456536.jpg) no-repeat;
     background-size: 130rem;
     object-fit: cover;
     height: 65rem;
@@ -29,18 +29,14 @@ const HeaderDetails = styled.div`
         height: 44.4rem;
     }
 
-    h2 {
-        margin-top: 0rem;
-        margin-bottom: 30rem;
-        text-transform: uppercase;
-        margin-bottom: -2rem;
-        color: #d3cfc9;
-        text-shadow: 0px 0px 10px #181a1b;
-        font-size: 2rem;
+    img {
+        margin-top: -14rem;
+        margin-bottom: -7rem;
     }
 
     h1 {
         font-size: 4rem;
+        text-transform: uppercase;
 
         @media (max-width: 768px) {
             font-size: 1rem;
@@ -60,10 +56,10 @@ const HeaderDetails = styled.div`
         text-shadow: 0px 0px 10px #181a1b;
         border-radius: 15px;
         padding: 1rem;
+        color: #fff;
     }
 
     a {
-        background: #ee393f;
         color: #d3cfc9;
         border: none;
         border-radius: 5px;
@@ -72,6 +68,27 @@ const HeaderDetails = styled.div`
         font-weight: bold;
         cursor: pointer;
         text-decoration: none;
+    }
+
+    .aboutus {
+        background: #b92c30;
+        margin-right: 1rem;
+
+        :hover {
+            transition: 1s;
+            color: #fff;
+            background: #ee393f;
+        }
+    }
+
+    .whatsapp {
+        background: #2f9b3b;
+
+        :hover {
+            transition: 1s;
+            color: #fff;
+            background: #4dcb5b;
+        }
     }
 `
 

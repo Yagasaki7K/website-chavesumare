@@ -18,12 +18,12 @@ const Footer = () => {
                     Você também pode apertar o botão do Whatsapp e entrar em contato direto com a gente!
                 </p>
 
-                <p><i class="uil uil-map-marker-alt"></i> Rua das Letras, 123, Sumaré</p>
-                <p><i class="uil uil-phone"></i> +55 19 99999-9999</p>
-                <p><i class="uil uil-envelope"></i> exemplo@email.com.br</p>
+                <p><i class="uil uil-map-marker-alt"></i> Av. Emílio Bosco, 1100 (Jardim Morumbi / Nova Veneza) - Sumaré | No estacionamento do Supermercado Goodbom Matão</p>
+                <p><i class="uil uil-phone"></i> <a href="https://api.whatsapp.com/send?phone=5519981480355&text=Ol%C3%A1%2C%20preciso%20de%20uma%20ajuda!">+55 19 98148-0355</a></p>
+                <p><i class="uil uil-envelope"></i> chaveirosumare10@gmail.com</p>
             </div>
             <div className="rightContainer">
-                <a href=""><i class="uil uil-whatsapp"></i> Envie um "HELP" no Whatsapp!</a>
+                <a href="https://api.whatsapp.com/send?phone=5519981480355&text=Ol%C3%A1%2C%20preciso%20de%20uma%20ajuda!"><i class="uil uil-whatsapp"></i> Envie um "HELP" no Whatsapp!</a>
             </div>
         </div>
     </FooterDetails>

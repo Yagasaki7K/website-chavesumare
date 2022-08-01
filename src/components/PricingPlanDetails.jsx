@@ -64,9 +64,10 @@ const PricingPlanDetails = styled.div`
             ul {
                 list-style: none;
                 margin-left: -3rem;
+                margin-bottom: 2rem;
             }
 
-            button {
+            a {
                 background: #272727;
                 color: #d3cfc9;
                 font-weight: bold;
@@ -75,6 +76,7 @@ const PricingPlanDetails = styled.div`
                 border: none;
                 text-transform: uppercase;
                 cursor: pointer;
+                text-decoration: none;
 
                 :hover {
                     background: #d3cfc9;
